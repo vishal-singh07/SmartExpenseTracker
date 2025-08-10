@@ -20,6 +20,11 @@ The app allows adding daily expenses, viewing them in list and report formats, g
 ## 📸 Screenshots
 
 <div >
+  <img width="412" height="869" alt="Entry Screen" src="https://github.com/user-attachments/assets/b351f3ea-4979-454b-91f7-1784e628c539" />
+  <img width="399" height="864" alt="ListScreen" src="https://github.com/user-attachments/assets/86dd3f0b-13ee-4a9a-89e4-d9b44dfa59a8" />
+  <img width="407" height="862" alt="Report Screen" src="https://github.com/user-attachments/assets/c39a7739-627c-4ce6-871c-91d25271518a" />
+  <img width="410" height="872" alt="Settings Screen" src="https://github.com/user-attachments/assets/367e9186-d211-49b2-af2e-35957cae7e09" />
+  <img width="407" height="869" alt="Dark Mode" src="https://github.com/user-attachments/assets/c9112be0-cb51-4f88-9d24-df1f97935eb5" />
 </div>
 
 ---
