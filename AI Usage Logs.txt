@@ -1,0 +1,48 @@
+AI Usage Logs:
+Prompt Log (Key Prompts + Retries)
+"Create initial codebase using Kotlin, Jetpack Compose, MVVM considering following requirements:
+1. Expense Entry Screen
+Input fields:
+Title (text)
+Amount (₹)
+Category (mocked list: Staff, Travel, Food, Utility)
+Optional Notes (max 100 chars)
+Optional Receipt Image (upload or mock)
+Submit Button: Adds expense, shows Toast, animates entry
+Show real-time “Total Spent Today” at top
+2. Expense List Screen
+View expenses for:
+Today (default)
+Previous dates via calendar or filter
+Group by category or time (toggle)
+Show: Total count, total amount, empty state
+3. Expense Report Screen
+Mock report for last 7 days:
+Daily totals
+Category-wise totals
+Bar or line chart (mocked)
+Export (optional):
+Simulate PDF/CSV export
+Trigger Share intent (optional)" - ChatGPT
+
+"Add Room integration to the project code." - Copilot
+
+"/fix FATAL EXCEPTION: main
+Process: com.example.smartexpensetracker, PID: 12384
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.smartexpensetracker/com.example.smartexpensetracker.MainActivity}: java.lang.RuntimeException: Cannot find implementation for com.example.smartexpensetracker.data.ExpenseDatabase. ExpenseDatabase_Impl does not exist
+at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3922)
+at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:103)
+at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:139)
+at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:96)" : Copilot
+
+"Update to include bottom navigation to switch between Entry, List, Report screens." : Copilot
+
+"Modify Report screen to show bar chart in Compose." : Copilot
+
+"/Fix error: Composable invocations only in composable scope for MaterialTheme.colorScheme usage in Canvas." : Copilot
+
+"Add theme switching functionality (Material 3) and Settings screen with Switch to toggle dark mode." : Copliot
+
+"Fix 'val cannot be reassigned' error when toggling theme from Settings screen in NavGraph.": Copilot
+
